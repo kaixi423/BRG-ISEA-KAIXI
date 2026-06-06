@@ -1,4 +1,4 @@
-1. Installing a Linux Environment on Your PC
+Installing a Linux Environment on Your PC
 
 (Based on: Obtaining a Linux Environment Lab)
 
