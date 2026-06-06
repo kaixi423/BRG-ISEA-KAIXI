@@ -1,4 +1,5 @@
 Lab: Digital Certificates – Use Let's Encrypt to secure a server. 
+
 I firstly installed nginx with sudo apt install ginx -y and checked if it was successfully downloaded and active with sudo systemctl status nginx.
 
 
