@@ -1,4 +1,4 @@
-2. Exploring Ubuntu Desktop and CLI Tools
+Exploring Ubuntu Desktop and CLI Tools
    
 (Based on: Ubuntu Desktop Familiarisation Lab)
 
