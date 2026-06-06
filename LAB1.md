@@ -1,6 +1,9 @@
 1. Installing a Linux Environment on Your PC
+
 (Based on: Obtaining a Linux Environment Lab)
+
 Session 1a: Setting up linux
+
 Managed to create a new repository but was having some issues with cloning the repository to my local machine using Git, googled it and found "sudo apt update && sudo apt install git -".
 However met some error when using that line, stated "error: The repository file :/cdrom resolute release" no longer has a release file"
 Went back on google and found "sudo nano /etc/apt/sources.list" There was 0 files
