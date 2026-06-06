@@ -1,5 +1,7 @@
 Provisioning and Securing a Cloud VM (Azure Standard_B2)
+
 Session 2b: Cloud services
+
 Managed to create a free tier Azure account.
 
 <img width="844" height="409" alt="image" src="https://github.com/user-attachments/assets/7abde03d-37e9-4616-8818-a9c3c1a72bc6" />
