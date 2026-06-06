@@ -1,0 +1,26 @@
+Managing and Controlling Linux Services
+
+(Based on: Linux Services Lab)
+
+Session 1b: Exploring Linux Lab: Linux Services – Understanding and managing background services.
+
+→ List services using systemctl list-units --type=service. These are the list of services
+
+
+
+Checking the live status of a standard background network service such as the cron scheduler.
+
+
+ 
+There was a warning of “The unit file, source configuration file or drop-ins of cron.services changed on disk. Run ‘systemctl daemon-reload’ to reload units”
+I went on google and searched the meaning and realized that the system is telling me that “someone changed the configuration files for cron behind my back, and still running on the old version, You need to tell me to refresh.”
+So I followed the instructions on the screen of systemctl daemon-reload. I googled this command as well and realized that it forces the system to scan the entire filesystem for modified configuration profiles and to update the system.
+
+
+→ Start/stop services with sudo systemctl start|stop [service].
+Tried to stop and restart the service, came across a warning "the unit file, source configuration file or drop ins of cron.service changed on disk, run "system-daemon reload" to reload units.
+I did that and managed to stop the service alongside checking the status with "sudo systemctl status"
+ 
+Tried to start the service again and checked status of services using "sudo systemctl status"
+ 
+
