@@ -1,6 +1,9 @@
 2. Exploring Ubuntu Desktop and CLI Tools
+   
 (Based on: Ubuntu Desktop Familiarisation Lab)
+
 Lab: Familiarity with Ubuntu Linux – Basic command line navigation and utilities.
+
 → Practice using pwd, ls, cd, mkdir, and touch.
 
 <img width="747" height="602" alt="image" src="https://github.com/user-attachments/assets/1e17b8d2-ebe4-4dc5-b117-97de7ae27be3" />
