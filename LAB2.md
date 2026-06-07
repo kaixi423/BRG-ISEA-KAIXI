@@ -24,12 +24,14 @@ Navigating through "/var"
 
 <img width="975" height="78" alt="image" src="https://github.com/user-attachments/assets/4918c5da-9d08-43c5-b762-4ce39b874bb9" />
 
+cd /var moves me into the /var directory from /etc. Then ls lists the content inside the /var folder which are just the standard system directories.
 
 Navigating through "/home"
 
 <img width="344" height="122" alt="image" src="https://github.com/user-attachments/assets/d0b6be0d-175c-40e0-8465-101facc9c6f8" />
 
- 
+Cd/home moves me into the home directory from /var. Used ls to list the contents of the current directory which is kaixi.
+
 → Use man to explore Linux manual pages.
 
 <img width="975" height="681" alt="image" src="https://github.com/user-attachments/assets/c6d7dc45-2a02-416e-9d8d-c08614dad5b1" />
