@@ -14,7 +14,7 @@ Here it showed -rw-rw-r--. r stands for read, w stands for write and x stands fo
 
  
 → Change permissions using chmod (e.g., chmod 755 file.sh).
-Managed to change permissions to root
+Managed to change permissions from read and write only to read,write and execute using chmod u+x perm_test.sh
 
 <img width="889" height="220" alt="image" src="https://github.com/user-attachments/assets/ca0fa9e9-7c4c-4e15-972f-eb2079d0b276" />
 
