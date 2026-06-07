@@ -33,4 +33,22 @@ I learned that using the bash command is a direct and reliable way to execute a 
 
 <img width="705" height="369" alt="image" src="https://github.com/user-attachments/assets/e599fbea-b88d-4494-81ae-26ef239d7d77" />
 
+During the lesson, the lecturer also went through with us another script and I also tried to load it. I ran nano parse_nginx_logs.sh to open the text editor and entered the script below. 
+Proceeded to save it and closed the file.
+
+<img width="975" height="545" alt="image" src="https://github.com/user-attachments/assets/33c29651-66c6-42de-aa5d-fbde37c49df0" />
+
+I then granted permission with chmod 755 parse_nginx_logs.sh and sudo ./parse_nginx_logs.sh and ran the script. However there was no IP address/date and time. So I researched and it could mean one of two things which is either my live nginx log file is currently empty or the format of the entries inside my log file did not match the regular expression (REGEX) pattern.
+
+<img width="975" height="287" alt="image" src="https://github.com/user-attachments/assets/dcba8521-0dbc-4e25-8c89-fe2fb15cee84" />
+
+I then ran this sudo tail -n 5 /var/log/nginx/access.log which is to look at the end of the Nginx web server’s access log. I did not understand this part so I asked google gemini what this meant and it gave me the issue
+
+<img width="975" height="481" alt="image" src="https://github.com/user-attachments/assets/29f8752c-a133-4180-92ff-ab44aa311e73" />
+
+To fix this error, I had to open the script again and use a new fully optimized version. After saving the script, it loaded. 
+
+<img width="720" height="604" alt="image" src="https://github.com/user-attachments/assets/1b630976-2376-4044-b22f-06aaea7d3aef" />
+
+<img width="975" height="405" alt="image" src="https://github.com/user-attachments/assets/95a3c91f-4962-478f-9748-062596c610c8" />
 
